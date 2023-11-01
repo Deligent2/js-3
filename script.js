@@ -95,5 +95,57 @@
 //     return 'Today is ' + dayOfWeek;
 // }
 
-// console.log(getDayOfWeek(7));
+//console.log(getDayOfWeek(7));
+
+// function myFunction(age) {
+
+//     if (age <= 19 && 21 <= age) {
+//         return `${age} must be a number `;
+//     }
+// }
+
+
+// console.log(myFunction('20'));
+
+// function myFunction(age) {
+
+//     if (age === 20) {
+//         return `${age} must be a string`
+//     } else if (age <= 23) {
+//         return `${age} must be older then 23`
+
+//     }
+// }
+
+// console.log(myFunction())
+
+// const text = 'hello world'
+
+// console.log(text.replaceAll(' ', ''))
+
+// let str = 'hello world';
+// let a = str.replace(/(hello)\s(world)/, '$2 $1');
+
+// console.log(a);
+
+// let str = "Hello world";
+// let a = str.replace(/o/, 'а');
+
+// console.log(a);
+
+// let str = 'firewall'
+
+// console.log(str.length % 2 === 0)
+
+// let str = 'lorem ipsum dolor sit amet'
+// let a = str.replace(/\s/g,'')
+
+// console.log(a)
+
+// function myFunction(str) {
+//     return typeof str === 'string' && str.length >= 4 && str.length <= 10 && str.length % 2 === 0;
+// }
+
+// let a = "string";
+// console.log(myFunction(a)) 
 
